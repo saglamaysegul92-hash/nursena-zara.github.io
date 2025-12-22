@@ -1,0 +1,121 @@
+@media only screen and (max-width: 768px){ 
+    .kasa{
+width: 40vw;
+min-height: 25vh;
+    }
+
+    .icerik{
+ width: 45vw;
+    min-height: 20vh;
+}
+
+
+}
+ 
+
+
+@media only screen and (min-width: 768px){ 
+    .kasa{
+        width: 800px;
+        min-height: 500px;
+        
+    }
+
+.icerik{
+ width: 900px;
+    min-height: 500px;
+}
+
+}
+ 
+
+body{
+    font-family: 'poppins', sans-serif;
+    background-color: rgb(228, 225, 225);
+}
+
+
+.kasa{
+margin: 0 auto;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.banner{
+height: 15vh;
+margin: 1vh 0;
+background-image: url("magaza.jpg");
+background-position: center center;
+background-size: cover;
+border-radius: 2vh 0.5vh;
+display: flex;
+box-shadow: 0 0.4vh 1vh rgba(0,0,0,0.1);
+}
+
+.icerik{
+    
+    margin: 0 auto ;
+    padding: 1vh;
+}
+
+
+.icerik h1{
+margin-bottom: 2vh;
+margin-left: 2vh;
+text-align: center;
+font-size: 4vh;
+letter-spacing: 0.3vh;
+}
+
+
+.icerik p{
+text-align: justify;
+margin: 0.5vh 0;
+}
+
+.urun-satiri{
+margin-bottom: 2.1vh;
+padding-bottom: 2vh;
+border-bottom: 0.2vh solid #ddd;
+width: 100%;
+}
+
+/* Fotoğrafın kapsayıcısı (sol tarafta yer alacak) */
+.urun-foto {
+    float: left; /* Fotoğrafı sola kaydırır */
+    margin-right: 2vh; /* Fotoğraf ile yazı arasında boşluk bırakır */
+    /* Kenarlık istemediğiniz için burada border kullanmıyoruz */
+}
+
+/* Ürün açıklaması ve fiyatının kapsayıcısı (sağ tarafta yer alacak) */
+.urun-bilgi {
+    overflow: hidden; /* float'tan etkilenmeden kalan alanı kaplar */
+}
+
+/* Ürün başlık stili */
+.urun-bilgi h2 {
+    margin-top: 0;
+    margin-bottom: 0.5vh;
+    color: #333;
+}
+
+
+
+.footer{
+    background-color: rgb(183, 180, 181);
+    min-height: 3.5vw;
+    padding-left: 1.5vh;
+    padding-top: 1.5vh;
+    text-align: center;
+
+}
+
+.footer p{
+    text-align: center;
+}
